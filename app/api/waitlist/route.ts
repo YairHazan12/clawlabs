@@ -13,7 +13,7 @@ function readData() {
   }
 }
 
-function writeData(data: { seed: number; entries: { email: string; timestamp: string; ip?: string }[] }) {
+function writeData(data: { seed: number; entries: { email: string; timestamp: string }[] }) {
   writeFileSync(DATA_FILE, JSON.stringify(data, null, 2), "utf-8");
 }
 
@@ -47,12 +47,10 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    // Add new entry
-    const ip = req.headers.get("x-forwarded-for") || req.headers.get("x-real-ip") || undefined;
+    // Add new entry (no IP address collected for privacy)
     data.entries.push({
       email,
       timestamp: new Date().toISOString(),
-      ...(ip ? { ip } : {}),
     });
 
     writeData(data);

@@ -12,9 +12,11 @@ build/
 
 # Env
 .env
-.env.local
-.env.*.local
-.env.production
+.env.*
+!.env.example
+
+# Data
+data/waitlist.json
 
 # OS
 .DS_Store
