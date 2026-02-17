@@ -1,4 +1,4 @@
-import { Bot, Github, Twitter, Linkedin } from "lucide-react";
+import { Github, Twitter, Linkedin } from "lucide-react";
 
 export default function Footer() {
   const links = {
@@ -33,15 +33,15 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2.5 mb-4">
               <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-cyan-400 to-blue-500 flex items-center justify-center shadow-lg shadow-cyan-500/25">
-                <Bot className="w-5 h-5 text-white" />
+                <span className="text-lg leading-none">🦞</span>
               </div>
               <span className="text-xl font-bold">
-                <span className="text-white">Bot</span>
-                <span className="gradient-text-cyan">Bazaar</span>
+                <span className="text-white">Claw</span>
+                <span className="gradient-text-cyan"> Labs</span>
               </span>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs mb-6">
-              The marketplace for AI agents. Buy, sell, and run specialized AI bots
+              The Marketplace for AI Agents. Buy, sell, and run specialized AI bots
               instantly — no setup required.
             </p>
 
@@ -87,7 +87,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="py-6 border-t border-slate-800/60 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-sm text-slate-500">
-            © {new Date().getFullYear()} BotBazaar. All rights reserved.
+            © {new Date().getFullYear()} Claw Labs. All rights reserved.
           </p>
           <p className="text-sm text-slate-500">
             Built with ❤️ by{" "}

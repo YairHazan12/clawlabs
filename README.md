@@ -1,8 +1,8 @@
-# BotBazaar — The Marketplace for AI Agents
+# 🦞 Claw Labs — The Marketplace for AI Agents
 
 > Buy, sell, and run AI bots instantly. No API keys. No setup. No code.
 
-A landing page for validating market interest in an AI bot marketplace — think "Fiverr for AI agents."
+A landing page for validating market interest in an AI agent marketplace — the Fiverr for AI agents.
 
 ## Tech Stack
 

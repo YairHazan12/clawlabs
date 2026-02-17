@@ -130,11 +130,11 @@ export default function HeroSection({ initialCount }: HeroSectionProps) {
                 <div className="w-3 h-3 rounded-full bg-red-500/80" />
                 <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
                 <div className="w-3 h-3 rounded-full bg-green-500/80" />
-                <span className="ml-2 text-xs text-slate-500 font-mono">BotBazaar — marketplace</span>
+                <span className="ml-2 text-xs text-slate-500 font-mono">Claw Labs — marketplace</span>
               </div>
               {/* Terminal content */}
               <div className="p-4 font-mono text-sm text-left space-y-2">
-                <div className="text-slate-500">$ botbazaar run code-reviewer --pr=github.com/user/repo/pull/42</div>
+                <div className="text-slate-500">$ clawlabs run code-reviewer --pr=github.com/user/repo/pull/42</div>
                 <div className="text-cyan-400">✓ Pulling bot image... <span className="text-slate-400">done (1.2s)</span></div>
                 <div className="text-cyan-400">✓ Spinning up container... <span className="text-slate-400">done (0.8s)</span></div>
                 <div className="text-cyan-400">✓ Analyzing PR... <span className="text-slate-400">87 files changed</span></div>

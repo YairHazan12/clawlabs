@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://botbazaar.ai"),
-  title: "BotBazaar — The Marketplace for AI Agents",
+  metadataBase: new URL("https://clawlabs.ai"),
+  title: "Claw Labs — The Marketplace for AI Agents",
   description:
     "Buy, sell, and run AI bots instantly. No API keys. No setup. Discover expert-built AI agents for business analysis, code review, SEO audits, legal documents, and more.",
   keywords: [
@@ -15,33 +15,34 @@ export const metadata: Metadata = {
     "no-code AI",
     "AI tools",
     "bot marketplace",
+    "claw labs",
   ],
   authors: [{ name: "River Labs" }],
   creator: "River Labs",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://botbazaar.ai",
-    title: "BotBazaar — The Marketplace for AI Agents",
+    url: "https://clawlabs.ai",
+    title: "Claw Labs — The Marketplace for AI Agents",
     description:
-      "Buy, sell, and run AI bots instantly. No API keys. No setup. The Fiverr for AI agents.",
-    siteName: "BotBazaar",
+      "Buy, sell, and run AI bots instantly. No API keys. No setup. The marketplace for AI agents.",
+    siteName: "Claw Labs",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "BotBazaar — The Marketplace for AI Agents",
+        alt: "Claw Labs — The Marketplace for AI Agents",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "BotBazaar — The Marketplace for AI Agents",
+    title: "Claw Labs — The Marketplace for AI Agents",
     description:
       "Buy, sell, and run AI bots instantly. No API keys. No setup.",
     images: ["/og-image.png"],
-    creator: "@botbazaar",
+    creator: "@clawlabs",
   },
   robots: {
     index: true,

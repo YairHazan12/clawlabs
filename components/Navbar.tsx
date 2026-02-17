@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Bot, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -33,11 +33,11 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2.5 group">
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-400 to-blue-500 flex items-center justify-center group-hover:scale-110 transition-transform duration-200 shadow-lg shadow-cyan-500/25">
-              <Bot className="w-5 h-5 text-white" />
+              <span className="text-base leading-none">🦞</span>
             </div>
             <span className="text-lg font-bold">
-              <span className="text-white">Bot</span>
-              <span className="gradient-text-cyan">Bazaar</span>
+              <span className="text-white">Claw</span>
+              <span className="gradient-text-cyan"> Labs</span>
             </span>
           </a>
 

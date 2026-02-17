@@ -51,7 +51,7 @@ const buyerFeatures = [
 const comparisonRows = [
   { task: "Hiring a freelancer", time: "Days", cost: "$200+", pain: "High" },
   { task: "Building it yourself", time: "Weeks", cost: "$1,000+", pain: "Very High" },
-  { task: "BotBazaar", time: "Seconds", cost: "$0.05", pain: "None", highlight: true },
+  { task: "Claw Labs", time: "Seconds", cost: "$0.05", pain: "None", highlight: true },
 ];
 
 export default function ForBuyers() {
@@ -115,7 +115,7 @@ export default function ForBuyers() {
         <ScrollReveal>
           <div className="max-w-3xl mx-auto">
             <h3 className="text-center text-xl font-bold text-white mb-6">
-              Why BotBazaar beats the alternatives
+              Why Claw Labs beats the alternatives
             </h3>
             <div className="glass-card rounded-2xl overflow-hidden border border-slate-700/30">
               {/* Header */}
